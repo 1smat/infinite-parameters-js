@@ -5,7 +5,6 @@ function calc () {
       result += args[i]
   }
   console.log(result)
-  console.log(arguments);
 
 }
-calc(1, 2, 3, 10)
+calc(1, 5, 3, 10) // returns 20
